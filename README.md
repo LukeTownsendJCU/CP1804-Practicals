@@ -1,2 +1,2 @@
 # CP1804-Practicals
-Programming Pracs
+My practical work for IT@JCU CP1404
