@@ -3,8 +3,8 @@
 
 class Car:
     """Represent a Car object."""
-    # Not: name="" creates empty string to be filled later.
-    # Just like fuel=0 creates a variable at 0 to be used later.
+    # Note: name="" creates empty string to be filled later?
+    # Note: just like fuel=0 creates a variable at 0 to be changed later?
     def __init__(self, name="", fuel=0):
         """Initialise a Car instance.
 
