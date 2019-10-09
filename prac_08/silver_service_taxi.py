@@ -14,7 +14,7 @@ class SilverServiceTaxi(Taxi):
         self.price_per_km *= fanciness
 
     def __str__(self):
-        return "{} flagfall and taxi fare of {}".format(self.flagfall, super().__str__())
+        return "${} flagfall and taxi fare for {}".format(self.flagfall, super().__str__())
 
     def get_fare(self):
         # Are we doing the maths in the return because its not a variable we need to keep track of?
