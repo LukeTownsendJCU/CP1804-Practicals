@@ -2,7 +2,6 @@ from prac_08.unreliable_car import UnreliableCar
 
 
 def main():
-
     reliable_car = UnreliableCar("Good Car", 100, 90)
     unreliable_car = UnreliableCar("Bad Car", 100, 9)
 
