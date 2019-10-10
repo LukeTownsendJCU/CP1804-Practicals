@@ -23,6 +23,7 @@ class Taxi(Car):
 
     def get_fare(self):
         """Return the price for the taxi trip."""
+        # Is this a variable we need to save for later?
         return round(self.price_per_km * self.current_fare_distance, 1)
 
     def start_fare(self):
