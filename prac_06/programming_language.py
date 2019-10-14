@@ -24,7 +24,7 @@ def test_run():
 
     print("The dynamically typed languages are:")
     for language in languages:
-        if language.is_dynamic:
+        if language.is_dynamic():
             print(language.name)
 
 # what does this do exactly?

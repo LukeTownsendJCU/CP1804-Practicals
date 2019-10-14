@@ -12,8 +12,7 @@ def main():
         added_guitar = Guitar(guitar_name, guitar_year, guitar_cost)
         guitars.append(added_guitar)
 
-        print(added_guitar, "added.\n"
-                            "Add another guitar?")
+        print(added_guitar, "added.\nAdd another guitar?")
         guitar_name = input("Enter name of guitar: ")
 
     # For testing.
